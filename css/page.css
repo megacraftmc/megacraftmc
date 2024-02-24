@@ -70,7 +70,7 @@
 
     .container .box .box-cell {
         width: 100%; /* Largura total para ocupar a largura da tela */
-        padding: 10px; /* Adiciona um preenchimento interno de 10px para todos os boxes */
+        padding: 5px; /* Adiciona um preenchimento interno de 10px para todos os boxes */
     }
 
     .container .box .box-cell.box1 {
@@ -80,12 +80,12 @@
 
     .container .box .box-cell.box2 {
         order: 1; /* Muda a ordem do box2 para ser o primeiro na versão mobile */
-        margin-top: 20px; /* Adiciona uma margem superior de 20px apenas para o box2 */
+        margin-top: 50px; /* Adiciona uma margem superior de 20px apenas para o box2 */
     }
 
     .container .box .box-cell.box2 img {
-        width: 70%; /* Ajuste o valor conforme necessário para diminuir o tamanho do logo na versão mobile */
-        margin: 0 auto; /* Centraliza a imagem */
+        width: 40%; /* Ajuste o valor conforme necessário para diminuir o tamanho do logo na versão mobile */
+        margin: 40px auto; /* Centraliza a imagem */
     }
 
     .container .box .box-cell.box3 {

@@ -233,7 +233,11 @@
 			100%   { transform: translate(0, -0px); }   
 		}
 
-
+		@media (max-width: 720px) {
+			box1 box2 box3 {
+				flex-direction: row;
+			}
+		}
 
 
     </style>
@@ -475,7 +479,7 @@ $.getJSON(url, function(r) {
  } 
 var pl = '';
  if(r.players.sample.length > 0 ){  } 
-  $('#rest').html((/§(.+?)/gi, 'Jogadores')+ ' Online: '+r.players.online+pl);
+  $('#rest').html((/§(.+?)/gi, 'Jogadores')+ ' online agora: '+r.players.online+pl);
  $('#favicon').attr('src', r.favicon);
     
 });

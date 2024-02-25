@@ -327,6 +327,33 @@ ol {
   Header
 -----------------------*/
 
+
+/* Oculta o menu para dispositivos móveis na versão desktop */
+.mobile-menu {
+    display: none;
+}
+
+/* Oculta o menu para dispositivos desktop na versão móvel */
+.desktop-menu {
+    display: none;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Exibe o menu específico para dispositivos móveis na versão mobile */
+    .mobile-menu {
+        display: block;
+    }
+}
+
+/* Media query para dispositivos desktop */
+@media (min-width: 769px) {
+    /* Exibe o menu para dispositivos desktop na versão desktop */
+    .desktop-menu {
+        display: block;
+    }
+}
+
 .header {
 	background: #070720;
 }

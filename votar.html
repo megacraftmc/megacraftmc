@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/page.css" type="text/css">
 
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -43,11 +44,25 @@
         width:120;      
         float:left;
 		}
+		
+		#voto {
+		background-color: #483D8B;
+		color: #fff;
+		border-radius: 10px;
+		text-align: center;
+		}
 	</style>
 	
 </head>
 
 <body>
+				<div class="bg-animation">
+					<div id='stars'></div>
+					<div id='stars2'></div>
+					<div id='stars3'></div>
+					<div id='stars4'></div>
+				</div><!-- / STAR ANIMATION -->
+
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -59,9 +74,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html">
-                            <img src="favicon.ico" width="35px" alt="">&nbsp;<img src="img/logo.png" alt="">
-                        </a>
+					<!-- LOGO -->
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -91,49 +104,85 @@
     </header>
     <!-- Header End -->
 
+
+
+
+
     <!-- Normal Breadcrumb Begin -->
-    <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
+    <section class="normal-breadcrumb set-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="normal__breadcrumb__text">
-                        <h2>Vote no servidor</h2>
-                    </div>
+                <div class="normal__breadcrumb__text" align="center">
+				
+				
+          
+				
+				
+        <div class="container"> 
+            <div class="box"> 
+                <div class="box-row"> 
+                    <div class="box-cell box1" style="border: 5px; border-color: DarkSlateBlue;"> 
+						<div id="server" style="background-color: #000; border-radius: 10px; padding: 10px;">
+                        <b style="color:#fff; text-shadow: 1px 1px 1px #000;">IP:&nbsp;</b> <input style="font-size: 15px;font-weight: bold" type="text" name="texto" id="texto" readonly placeholder="megacraft.com.br" value="megacraft.com.br" /> 
+						<button id="btnnnx" style="background-color: #6495ED; color: black; border-radius: 6px;" height="30px" onclick="copiarTexto()">COPIAR!</span></button></b><br />
+						<div id="rest">Loading ...</div>
+						</div>	
+                    </div> 
+                      
+                    <div class="box-cell box2 imglogo floating" style="text-align:center;"> 
+                        <a href="index.html" ><img  src="img/logo-novo.png" /></a>
+                    </div> 
+                      
+                    <div class="box-cell box3" style="text-align:right;" > 
+						<div id="server" style="background-color: #000; border-radius: 10px; padding: 10px;">
+						<a href="https://discord.gg/VA5dPmtu" target="_blank"><b style="color: #fff;" >ENTRE NO NOSSO DISCORD &nbsp;<img src="img/discord-logo.webp" width="50px" height="40px" /></b></a>
+						</div>
+                    </div> 
+                </div> 
+            </div> 
+        </div>				
+
+						
                 </div>
             </div>
         </div>
     </section>
-	
     <!-- Normal Breadcrumb End -->
 	
-	    <section class="signup spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6" >
-                    <div class="login__form" >
-					<h3><a href="http://bit.ly/votarmc1" target="_blank"> SITE 01 </a></h3> 
-					<h3><a href="http://bit.ly/votarmc2" target="_blank"> SITE 02 </a></h3> 
-					<h3><a href="https://minecraft-mp.com/server/318126/vote/" target="_blank"> SITE 03 </a></h3> 
 
+	
+	
+<section class="signup spad">
+
+	            <div class="col-lg-8" >
+                    <div class="blog__details__title" >
+                        <h2>Votar no Servidor</h2>
                     </div>
                 </div>
+
+    <div class="container" id="server" style="background-color: #100f10; padding: 20px; border-radius: 25px;">
+            <div class="row">
                 <div class="col-lg-6" >
-                    <div class="login__form">
-					<h3><a href="http://bit.ly/votarmc4" target="_blank"> SITE 04 </a></h3> 
-					<h3><a href="http://bit.ly/votarmc5" target="_blank"> SITE 05 </a> </h3> 
-					<h3><a href="http://bit.ly/votarmc6" target="_blank"> SITE 06 </a></h3> 
+					<div id="voto"><b style="color: #fff;"><a href="http://bit.ly/votarmc1" target="_blank"> MINECRAFTSERVERS.ORG </a></b></div><br />
+					<div id="voto"><b><a href="http://bit.ly/votarmc2" target="_blank"> MINECRAFT-SERVER.NET </a></b> </div><br />
+					<div id="voto"><b><a href="https://minecraft-mp.com/server/318126/vote/" target="_blank"> MINECRAFT-MP.COM </a></b> </div>
+
+                </div>
+                <div class="col-lg-6" >
+					<div id="voto"><b><a href="http://bit.ly/votarmc4" target="_blank"> TOPMINECRAFTSERVERS.ORG </a></b> </div><br />
+					<div id="voto"><b><a href="http://bit.ly/votarmc5" target="_blank"> TOP.ORG </a> </b> </div><br />
+					<div id="voto"><b><a href="http://bit.ly/votarmc6" target="_blank"> MINECRAFT-SERVER-LIST.COM </a></b> </div>
 
 
 
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 	
- <br> <br> <br>
 	
-	<div align="center" ><a href="https://lurahosting.com.br/minecraft" target="_blank"><img src="img/banner-720-90.jpg" /></a> <br><br></div>
+	<div align="center" ><a href="https://lurahosting.com.br/minecraft" target="_blank"><img src="img/banner-720-90.jpg" /></a>
 
 
 	<!-- Footer Section Begin -->
@@ -186,6 +235,39 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+
+
+<script>
+//based on a pen by @robinselmer
+var url = "https://api.minetools.eu/ping/megacraft.com.br";
+ 
+$.getJSON(url, function(r) {
+    //data is the JSON string
+ if(r.error){
+    $('#rest').html('Servidor em Manutenção!');
+   return false;
+ } 
+var pl = '';
+ if(r.players.sample.length > 0 ){  } 
+  $('#rest').html((/§(.+?)/gi, 'Jogadores')+ ' online agora: '+r.players.online+pl);
+ $('#favicon').attr('src', r.favicon);
+    
+});
+</script>
+
+
+<script>
+    function copiarTexto() {
+        let textoCopiado = document.getElementById("texto");
+        textoCopiado.select();
+        textoCopiado.setSelectionRange(0, 99999)
+        document.execCommand("copy");
+        alert("IP Copiado! " + textoCopiado.value);
+    }
+</script>
+
+
 
 </body>
 

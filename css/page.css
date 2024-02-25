@@ -60,9 +60,15 @@
 			}
 
 
+			/* EFEITO NO TEXTO DO BOTÃO DISCORD HEADER */
+			.navLinks:hover{
+				text-shadow:0 0 5px #ff0000;
+			}
 
-/* Media query para dispositivos com largura máxima de 768px (tamanho de tablet e celular) */
-@media (max-width: 768px) {
+
+
+	/* Media query para dispositivos com largura máxima de 768px (tamanho de tablet e celular) */
+	@media (max-width: 768px) {
     .container .box .box-row {
         display: flex; /* Alterando para flexbox */
         flex-direction: column; /* Empilhando os elementos verticalmente */

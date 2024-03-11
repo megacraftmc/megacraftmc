@@ -72,6 +72,7 @@
     .container .box .box-row {
         display: flex; /* Alterando para flexbox */
         flex-direction: column; /* Empilhando os elementos verticalmente */
+		text-align: center;
     }
 
     .container .box .box-cell {
@@ -84,14 +85,14 @@
         margin-top: 20px; /* Adiciona uma margem superior de 20px apenas para o box1 */
     }
 
-    .container .box .box-cell.box2 {
+    .container .box .box-cell.box2 .imglogo {
         order: 1; /* Muda a ordem do box2 para ser o primeiro na versão mobile */
         margin-top: 50px; /* Adiciona uma margem superior de 20px apenas para o box2 */
     }
 
     .container .box .box-cell.box2 img {
-        width: 40%; /* Ajuste o valor conforme necessário para diminuir o tamanho do logo na versão mobile */
-        margin: 40px auto; /* Centraliza a imagem */
+        width: 60%; /* Ajuste o valor conforme necessário para diminuir o tamanho do logo na versão mobile */
+        margin: 20px auto; /* Centraliza a imagem */
     }
 
     .container .box .box-cell.box3 {
@@ -111,7 +112,7 @@
 		}
 		   
 		.imglogo img {
-			width: 65%;
+			width: 75%;
 			transition: 0.5s all ease-in-out;
 		}
 		   

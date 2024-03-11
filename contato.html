@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="O Melhor Servidor Brasileiro de Minecraft! Java 1.20+ - IP megacraft.com.br.">
-    <meta name="keywords" content="Minecraft, Mine, Craft, Megacraft, Mega, Server, Servidor, Factions, Survival, War, Clans">
+    <meta name="description" content="O Melhor Servidor Brasileiro de Minecraft! Java 1.19 - IP megacraft.com.br.">
+    <meta name="keywords" content="Minecraft, Mine, Craft, Megacraft, Mega, Server, Servidor, Skyblock, Survival, Oneblock, Acid Island">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MEGACRAFT | O Melhor Servidor Brasileiro de Minecraft!</title>
@@ -40,10 +40,11 @@
         }
         -->
         </script>
-
-
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3723447797304917"
-     crossorigin="anonymous"></script>
+		
+		
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3723447797304917"
+     crossorigin="anonymous"></script>		
+		
 </head>
 
 <body>
@@ -134,7 +135,7 @@
                 <div class="box-row"> 
                     <div class="box-cell box1" style="border: 5px; border-color: DarkSlateBlue;"> 
 						<div id="server" style="background-color: #000; border-radius: 10px; padding: 10px;">
-                        <b style="color:#fff; text-shadow: 1px 1px 1px #000;">IP:&nbsp;</b> <input style="font-size: 15px;font-weight: bold" type="text" name="texto" id="texto" readonly placeholder="megacraft.com.br" value="megacraft.com.br" /> 
+                        <b style="color:#fff; text-shadow: 1px 1px 1px #000;">IP:&nbsp;</b> <input style="font-size: 15px;font-weight: bold" size="16" type="text" name="texto" id="texto" readonly placeholder="megacraft.com.br" value="megacraft.com.br" /> 
 						<button id="btnnnx" style="background-color: #6495ED; color: black; border-radius: 6px;" height="30px" onclick="copiarTexto()">COPIAR!</span></button></b><br />
 						<div id="rest">Loading ...</div>
 						</div>	
@@ -281,7 +282,7 @@ $.getJSON(url, function(r) {
  } 
 var pl = '';
  if(r.players.sample.length > 0 ){  } 
-  $('#rest').html((/§(.+?)/gi, 'Jogadores')+ ' online agora: '+r.players.online+pl);
+  $('#rest').html((/§(.+?)/gi, 'Jogadores')+ ' Online: '+r.players.online+pl);
  $('#favicon').attr('src', r.favicon);
     
 });

@@ -333,12 +333,12 @@ var url = "https://api.minetools.eu/ping/megacraft.com.br";
 $.getJSON(url, function(r) {
     //data is the JSON string
  if(r.error){
-    $('#rest').html('Servidor em Manutenção!');
+    $('#rest').html('Server Under Maintenance!');
    return false;
  } 
 var pl = '';
  if(r.players.sample.length > 0 ){  } 
-  $('#rest').html((/§(.+?)/gi, 'Jogadores')+ ' Online: '+r.players.online+pl);
+  $('#rest').html((/§(.+?)/gi, 'Players')+ ' Online: '+r.players.online+pl);
  $('#favicon').attr('src', r.favicon);
     
 });
@@ -351,7 +351,7 @@ var pl = '';
         textoCopiado.select();
         textoCopiado.setSelectionRange(0, 99999)
         document.execCommand("copy");
-        alert("IP Copiado! " + textoCopiado.value);
+        alert("IP Copied! " + textoCopiado.value);
     }
 </script>
 

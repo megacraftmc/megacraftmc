@@ -33,11 +33,17 @@
 
 html,
 body {
-	height: 100%;
-	font-family: "Mulish", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	background-image: url("../img/background2.jpg");
-	
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  /* Configurações do Background */
+  background-image: url("../img/background2.jpg");
+  background-size: cover;          /* Faz a imagem cobrir 100% da tela proporcionalmente */
+  background-position: center;     /* Centraliza o foco da imagem */
+  background-repeat: no-repeat;    /* Evita que a imagem se repita como mosaico */
+  background-attachment: fixed;    /* (Opcional) Mantém o fundo fixo ao rolar a página */
 }
 
 h1,

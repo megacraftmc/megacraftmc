@@ -37,13 +37,18 @@ body {
   margin: 0;
   font-family: "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
-  
-  /* Configurações do Background */
-  background-image: url("../img/background2.jpg");
-  background-size: cover;          /* Faz a imagem cobrir 100% da tela proporcionalmente */
-  background-position: center;     /* Centraliza o foco da imagem */
-  background-repeat: no-repeat;    /* Evita que a imagem se repita como mosaico */
-  background-attachment: fixed;    /* (Opcional) Mantém o fundo fixo ao rolar a página */
+}
+
+/* Configuração do Vídeo como Background */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Faz o vídeo cobrir 100% da tela sem distorcer */
+  z-index: -1;       /* Coloca o vídeo atrás de todo o conteúdo */
+  pointer-events: none; /* Evita que o vídeo bloqueie cliques na página */
 }
 
 h1,
